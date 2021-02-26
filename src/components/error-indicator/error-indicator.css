@@ -1,0 +1,23 @@
+.error-indicator{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+    font-size: 20px;
+}
+
+.error-indicator > span{
+    display: block;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.error-indicator > span:last-child{
+    opacity: .7;
+}
+
+.boom{
+    font-size: 60px;
+}
